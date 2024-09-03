@@ -1,0 +1,29 @@
+---
+title: "AS_DisEco_Fall2024"
+author: "Amatallah Saulawa"
+format: html
+editor: visual
+---
+
+**Integrating Code and Text**
+
+Find area of a circle with radius 5 cm.
+
+Formula: ¶ \* r\^2
+
+where r is the radius.
+
+```{r}
+# Function to calculate the area of a circle
+area_of_circle <- function(radius) {
+  area <- pi * radius^2
+  return(area)
+}
+radius <- 5 # from the example
+circle_area <- area_of_circle(radius)
+cat("The area of the circle with radius", radius, "is", circle_area, "\n")
+```
+
+**Inserting an Image in Quarto Document**
+
+![Disease ecology looks at the relationships between environment, host, and pathogens.](images/clipboard-1423874183.png)
