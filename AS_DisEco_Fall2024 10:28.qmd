@@ -129,3 +129,21 @@ Thus, 2538 harbor seals need to be vaccinated in order to achieve herd immunity 
 The fecal flotation lab was very interesting because we got to see the worms that cows carry with them in their body by analyzing their fecal excretion. Kayla, our lab lead, told us that we would use cow's poop because it generally has more worms than other animals, such as deer.
 
 We began with Kayla and two other lab instructors showing us how to conduct the fecal flotation. They began by weighing out 2 grams of fecal excrete into a small cup, and then mixed water into the excretion. The water was strained from the poop, vortexed and sugar water was added. Afterwards, a counting chamber was filled with the excrete. Once they demonstrated it to us, we split into teams and conducted the steps. My group used two samples and fortunately for us, we were able to see the worms under the microscope. However, viewing the worms took time as there weren't that many and if you're not sure what you're looking for, you may mistake air bubbles from pipetting for worms.
+
+**Worksheet 6: Marburg virus outbreak**
+
+The first person to become infected in the current Marburg virus outbreak in Rwanda probably contracted the disease during a visit to a cave with Egyptian rousette bats/fruit bats that are known reservoir of Marburg virus. As of today, 65 cases of Marburg virus infection have been documented, and most of the people infected are health care workers, mainly those who work in intensive care units. ​
+
+​1. Using the community epidemiology framework developed by Fenton and Pedersen, would you classify this Marburg virus outbreak as a spillover event or an emerging infectious disease? Justify your classification.
+
+-   
+
+    -   I would classify Marburg virus as an emerging infectious disease because Marburg virus has began to circulate independently in the novel host (humans). Most of the people with the virus now have not had contact with an infected bat, but rather another person. Emerging infectious diseases are when transmission rates are high within the novel host, but low between species transmission. Since people are getting Marburg from other infected individuals without contacting infected bats, it is an emerging infectious disease. 
+
+    2\. What measures could be implemented to reduce the risk of transmission in both community and healthcare settings.
+
+-   Since Marburg has a high case fatality rate and can be transmitted via direct contact with either an infectious person or contaminated material, the main focus should be on conducting disease surveillance to identify cases and isolate them from the main population. 
+
+-   People who are more likely to be in contact with cases, such as healthcare workers, should be closely monitored for the development of symptoms. This is vital to controlling the spread since people with Marburg virus are not infectious until they have developed symptoms, according to the World Health Organization. 
+
+-   To prevent future spillover events from occurring, there needs to be restriction of contract with areas known to harbor Egyptian bats, such as caves. 
