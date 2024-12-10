@@ -1,0 +1,237 @@
+---
+title: "AS_DisEco_Fall2024"
+author: "Amatallah Saulawa"
+format: html
+editor: visual
+---
+
+## [**Worksheet 2 & 3**]{.underline}
+
+**1) Find the sample size necessary to detect a disease at or above 5% prevalence in a herd of 5000 deer. The desired level of confidence is 95%.**
+
+59
+
+**2) Using the hypergeometric distribution, compare the sample size requirements for the following scenarios:\
+a) 95% confidence in detecting a disease at 1% prevalence in a large population\
+b) 99% confidence in detecting a disease at 2% prevalence in a large population**
+
+The sample size (299) for 95% confidence would be higher than the sample size (229) needed for 99% confidence.
+
+**3) You sample 300 deer from a high fenced facility that has a herd of 4000. None of the 300 have antibodies against Epizootic Hemorrhagic Disease. Based on this finding, you are 95% confident that the prevalence of exposure to EHD in this facility is \_\_\_\_\_ (\<, =,\>) \_\_\_\_%**\
+less than 1%
+
+**4) An outbreak of ‘Lame disease’ has been reported in wild turkey populations of Alabama. Turkeys from three counties were sampled for lameness (Lee, Chambers and Russell counties).\
+a) Analyze the sample data to determine prevalence of lameness in each county. Provide confidence interval for prevalence using Sterne’s method.**
+
+| County           | Prevalence | 95% CI       |
+|------------------|------------|--------------|
+| Lee county:      | 20.0%      | (14%, 27%)   |
+| Chambers county: | 26.7%      | (13%, 45%)   |
+| Russell county   | 3.1%       | (0.9%, 8.7%) |
+
+**\
+b) Compare prevalences using Fisher’s exact test.**
+
+Russell has 3.1% prevalence, Lee 20%, and Chambers 26.7%.
+
+The two-sided p-value is \<0.001
+
+P value is less than 0.05, so the difference is statistically significant.\
+
+**5) Jane was studying the spread of Pink Spot Disease (PSD) in a pond that had 60 fish.\
+She introduced an infectious fish in the pond on day 0. Her observations are as follows:\
+Day 1: 3 fish infected\
+Day 2: 4 fish infected\
+Day 3: 7 fish infected\
+Day 4: 11 fish infected\
+Day 5: 20 fish infected\
+Note that there is no disease-related mortality. The observations denote all infected fish in the pond (including previously infected fish).**
+
+| Day | Susceptible | Total Infected | New Infections | Incidence | Prevalence |
+|-----|-------------|----------------|----------------|-----------|------------|
+| 1   | 60          | 3              | 3              | 3/60      | 3/60       |
+| 2   | 57          | 4              | 1              | 1/57      | 4/60       |
+| 3   | 56          | 7              | 3              | 3/56      | 7/60       |
+| 4   | 53          | 11             | 4              | 4/53      | 11/60      |
+| 5   | 49          | 20             | 9              | 9/49      | 20/60      |
+
+**\
+a) Find incidence on day 1, day 2 and day 5. Write the unit for incidence.**
+
+Day 1: 0.05 cases per fish-day
+
+Day 2: 0.018 cases per fish-day
+
+Day 5: 0.183 cases per fish-day**\
+b) What is the prevalence of PSD on day 3 and day 5?**
+
+Day 3: 7/60; prevalence rate 12%
+
+Day 5: 20/60; prevalence rate 33%**\
+c) On which day is the prevalence same as the incidence (except the units)?**\
+Day 1
+
+## [**Worksheet 4**]{.underline}
+
+**Explain how disease models can contribute to better wildlife disease management strategies. Reflect on the limitations of disease models, including data uncertainty and ecological complexity, and suggest how models can be used alongside other tools to improve wildlife disease management outcomes.**
+
+Disease models deepen our understanding of disease processes by allowing us to represent wildlife disease processes and interactions among different components of ecosystems. These representations can help tailor disease management strategies. Since ecosystems and host-agent interactions in the real world are variable, disease modeling can allow us to test and understand the outcomes of different host-agent interaction paradigms. Models can supplement understanding of disease spread and development by testing out different hypotheses regarding their spread that are grounded in either empirical or anecdotal data. For example, if an infectious agent is adaptable to different conditions and has previously shifted hosts, a probabilistic disease model could test to see how the agent would affect wildlife populations if it adapts to infect their population. Additionally, such a model could also be used to test the efficacy of different management strategies and risk mitigation measures in responding to disease outbreaks. The result would be better decision-making and a deeper understanding of a specific environment using data insights. 
+
+Since models are representations of data fed by humans, they are limited by the quality of the available data. Still, they can be helpful in modeling different disease spreads and identifying the limitations of current data. Where there are limitations, different approaches, such as active surveillance or wastewater surveillance, can be used to improve data quality as needed. These surveillance methods, along with low-cost methods such as rumor surveillance, could be used to inform understanding of a disease’s spread and tailor the type of models that are tested. Other factors such as scientific research, a disease’s historical spread and trends, and past experience managing a specific population could also inform model choice and the type of variables that are represented in the model. If it is not feasible to supplement existing data through other data collection methods due to time constraints, then wildlife managers can make critical decisions using predictions based on representations of their existing data. Even with high-quality data, models will always have limitations as they will never be able to represent the complexity of the real world. However, they can help us make better choices and determine the best strategies for addressing a disease.  
+
+Disease models can be used to represent the complexity of different ecosystems by focusing on the most important data or interactions the model needs to capture. Like with models that have incomplete data, these models may not represent all of the nuances present in an ecosystem. To address this, wildlife managers can create multiple models that each capture the single most important aspects of the host, agent, and environmental interactions instead of trying to capture all the different interactions that take place in an ecosystem within a single model. Doing so would allow the model to be pared down and simple to understand while still reflecting the complexity of the wildlife ecosystem.
+
+## [**Exam 1 Question Makeup**]{.underline}
+
+**Bonus Question:**
+
+12. **The Dutch harbor seal population is estimated to be around 5400 with \~50% adults. Seals are susceptible to phocine distemper virus (PDV), but an estimated 40% of the adults in this population are immune to PDV by virtue of prior natural infection. How many seals in this population should be vaccinated in order to achieve herd immunity sufficient to prevent an outbreak of PDV in this population if the R0 is estimated to be \~3. Assume that all the adult seals that have survived prior PDV infection are tagged and hence identifiable.**
+
+1-1/3=\~67%. There needs to be \~67%, vaccination coverage to achieve herd immunity in fully susceptible population
+
+.67\*5400=3618 vaccines need for entire population if fully susceptible.
+
+However, there are 2700 adults (5400/2=2700), with 1080 (.4\*2700) being immune already.
+
+Thus the number of susceptible seals is actually 3618-1080= 2538.
+
+Thus, 2538 harbor seals need to be vaccinated in order to achieve herd immunity in this population.
+
+## [**Worksheet 5**]{.underline}
+
+**Write a brief (1-2 paragraphs) report on the fecal flotation lab.**
+
+The fecal flotation lab was very interesting because we got to see the worms that cows carry with them in their body by analyzing their fecal excretion. Kayla, our lab lead, told us that we would use cow's poop because it generally has more worms than other animals, such as deer.
+
+We began with Kayla and two other lab instructors showing us how to conduct the fecal flotation. They began by weighing out 2 grams of fecal excrete into a small cup, and then mixed water into the excretion. The water was strained from the poop, vortexed and sugar water was added. Afterwards, a counting chamber was filled with the excrete. Once they demonstrated it to us, we split into teams and conducted the steps. My group used two samples and fortunately for us, we were able to see the worms under the microscope. However, viewing the worms took time as there weren't that many and if you're not sure what you're looking for, you may mistake air bubbles from pipetting for worms.
+
+## [**Worksheet 6: Marburg virus outbreak**]{.underline}
+
+**The first person to become infected in the current Marburg virus outbreak in Rwanda probably contracted the disease during a visit to a cave with Egyptian rousette bats/fruit bats that are known reservoir of Marburg virus. As of today, 65 cases of Marburg virus infection have been documented, and most of the people infected are health care workers, mainly those who work in intensive care units. ​**
+
+**​1. Using the community epidemiology framework developed by Fenton and Pedersen, would you classify this Marburg virus outbreak as a spillover event or an emerging infectious disease? Justify your classification.**
+
+-   
+
+    -   I would classify Marburg virus as an emerging infectious disease because Marburg virus has began to circulate independently in the novel host (humans). Most of the people with the virus now have not had contact with an infected bat, but rather another person. Emerging infectious diseases are when transmission rates are high within the novel host, but low between species transmission. Since people are getting Marburg from other infected individuals without contacting infected bats, it is an emerging infectious disease. 
+
+    **2. What measures could be implemented to reduce the risk of transmission in both community and healthcare settings.**
+
+-   Since Marburg has a high case fatality rate and can be transmitted via direct contact with either an infectious person or contaminated material, the main focus should be on conducting disease surveillance to identify cases and isolate them from the main population. 
+
+-   People who are more likely to be in contact with cases, such as healthcare workers, should be closely monitored for the development of symptoms. This is vital to controlling the spread since people with Marburg virus are not infectious until they have developed symptoms, according to the World Health Organization. 
+
+-   To prevent future spillover events from occurring, there needs to be restriction of contract with areas known to harbor Egyptian bats, such as caves. 
+
+## [**Worksheet 7, 8, 9 (Re-Done)**]{.underline}
+
+**Identify the patterns that emerge and use the available data to explain the patterns. Provide confidence intervals for prevalence estimates. Finally, explain your analysis of this real-world data.**
+
+(An asterisk is used to denote updated information)
+
+I used Sterne's method to analyze how the prevalence varied by region. All figures have been rounded up.
+
+**Regional Prevalence**
+
+| Region  | Prevalence | 95% CI     |
+|---------|------------|------------|
+| Central | 64%        | (37%, 85%) |
+| South   | 63%        | (48%, 76%) |
+| North   | 29%        | (17%, 43%) |
+
+The exact prevalence by region is: 64.3% in the central region, 62.8% in the southern region, and 28.6% in the northern region.
+
+<https://github.com/asaulawa/WILDin5200/blob/04dc82912a49dc821eefad56c266bdd992237d53/Intro/6DA99FF9-52EC-4B6E-AAA1-729F09C5047A_4_5005_c.jpeg>
+
+<https://github.com/asaulawa/WILDin5200/blob/c9764d42c97258af34482f1a2305d1ea3330e297/Intro/7BCE3F42-F2DD-4CEE-A311-206F198B59C3_4_5005_c.jpeg>
+
+<https://github.com/asaulawa/WILDin5200/blob/fac9b4fed6acceabb2131f4130f4ee05cf620e6e/Intro/EA30089E-C572-4F80-8523-921AED037C89_4_5005_c.jpeg>
+
+**\*Comparison of Prevalence by Region**
+
+I then used Fisher's exact test to compare prevalence by region.
+
+[\*Central vs South:]{.underline}
+
+<https://github.com/asaulawa/WILDin5200/blob/main/Intro/Thu%20Dec%205%20223531%202024.png>
+
+Two-sided p-value: 1.0000. There is not a significant difference between the two prevalences.
+
+[\*Central vs North:]{.underline}
+
+<https://github.com/asaulawa/WILDin5200/blob/main/Intro/Thu%20Dec%205%20223704%202024.png>
+
+Two-sided p-value: 0.0256. There is a significant difference between the two prevalences as the p-value is lower than 0.05. There is a higher prevalence of B. procyonis in the central region compared to the northern region.
+
+[\*North vs South:]{.underline}
+
+<https://github.com/asaulawa/WILDin5200/blob/main/Thu%20Dec%205%20224051%202024.png>
+
+Two-sided p-value: 0.0015. There is a significant difference between the two prevalences as the p-value is lower than 0.05. There is a higher prevalence of B. procyonis in the southern region than the northern region.
+
+**Implication:** The prevalence is higher in the central and southern regions. The prevalence signals a need to focus control measures in those regions. To respond to this outbreak, we have to account for the likelihood of a human coming into contact with raccoon feces.
+
+Since raccoons are generally more prevalent in urban areas, people living in urban areas in the Central or Southern region need to be warned not contact with raccoons through feeding. Children should also be closely monitored in those areas so that they don't contact raccoon feces. Raccoon latrines should be identified and monitored so that people at risk of coming into contact with feces are aware.
+
+Since there is already a high prevalence in the Central and Southern regions, culling is of limited utility because the eggs are durable and can persist for years. Culling may be a preventative strategy in the North, where the prevalence isn't as high.
+
+**Regional Prevalence by Age**
+
+I calculated the prevalence in each region by age group using Sterne's method.
+
+Central YA:
+
+<https://github.com/asaulawa/WILDin5200/blob/5e08ed4aa58855b1e59072203736cec9e61cd6c9/Intro/AE9ACCBD-BACD-4D7B-9E9C-4C81F7EA7F17.jpeg>
+
+Central A:
+
+<https://github.com/asaulawa/WILDin5200/blob/5e08ed4aa58855b1e59072203736cec9e61cd6c9/Intro/E24B9EC8-478F-443A-ADE7-1A893B2EDDD8.jpeg>
+
+South YA:
+
+<https://github.com/asaulawa/WILDin5200/blob/5e08ed4aa58855b1e59072203736cec9e61cd6c9/Intro/296636F2-5ADB-4241-9C94-53DA22827984.jpeg>
+
+South A:
+
+<https://github.com/asaulawa/WILDin5200/blob/5e08ed4aa58855b1e59072203736cec9e61cd6c9/Intro/FC8B45D7-C2C6-4749-AE5B-2E83DB835756.jpeg>
+
+North YA: <https://github.com/asaulawa/WILDin5200/blob/5e08ed4aa58855b1e59072203736cec9e61cd6c9/Intro/1CAFA947-2B33-4AAE-A48A-C882DC198E3B.jpeg>
+
+North A:
+
+<https://github.com/asaulawa/WILDin5200/blob/5e08ed4aa58855b1e59072203736cec9e61cd6c9/Intro/ED1C14D1-8E08-4732-97A0-E530C8A06435.jpeg>
+
+| Age             | Region   | Prevalence | 95% CI     |
+|-----------------|----------|------------|------------|
+| **Adult**       | Central  | 62%        | (34%, 83%) |
+| **Young Adult** | Central  | 100%       | (5%, 100%) |
+| **Adult**       | Southern | 68%        | (50%, 83%) |
+| **Young Adult** | Southern | 50%        | (24%, 76%) |
+| **Adult**       | North    | 28%        | (13%, 48%) |
+| **Young Adult** | North    | 29%        | (14%, 50%) |
+
+I then used Fisher's exact test to compare prevalence by age within each regional group. I wanted to understand this because the way raccoons acquire roundworms differs by age. Older raccoons get them from small animal hosts, while younger raccoons get it from the environment. Thus, knowing this could help tailor intervention strategies.
+
+**\*Comparison of Prevalence by Region and Age**
+
+[Central Adult vs Young Adult:]{.underline}
+
+<https://github.com/asaulawa/WILDin5200/blob/fb7a32ad5359e57812a4c43975f31e975b898359/Intro/696F5A50-02AF-49BB-B4AA-CB1894F8A7FE.jpeg>
+
+The two-sided p value was 1, which is greater than 0.05, indicating that the difference between the two age groups was non significant.
+
+[Southern Adult vs Young Adult:]{.underline}
+
+<https://github.com/asaulawa/WILDin5200/blob/208a8135e95477af4c526025e660f1165d5f581a/Intro/FB085466-A66F-4735-9B22-CB2C3025CDC8.jpeg>
+
+The two-sided p value was 0.3126, which is greater than 0.05, indicating that the difference between the two age groups was non significant.
+
+[Northern Adult vs Young Adult:]{.underline}
+
+<https://github.com/asaulawa/WILDin5200/blob/e72881a4c44e8f9df959cefab2de48f4494db574/Intro/8EED8309-D3D5-4E9A-BFE8-EDBEC1C06302.jpeg>
+
+The two-sided p value was 1, which is greater than 0.05, indicating that the difference between the two age groups was non significant.
+
+**Implication:** In each region, there is no statistically significant difference between the different age classes. Disease response efforts should have a broad focus on reducing human contact with raccoons across the board. The reservoirs (small mammals in older raccoons) and the environment for younger raccoons) are equally important in transmission.
+
+**\*Host aggregation**: Raccoons tend to gather in one place and defecate at the same point everyday, creating raccoon latrines in which millions of eggs can be shed. Aritificially aggregating through feeding increases the risk of human exposure to raccoon latrines and poop droppings, thus increasing risk of humans developing disease through inhalation of feces.
